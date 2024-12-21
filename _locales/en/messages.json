@@ -1,0 +1,161 @@
+{
+    "appDescription": {
+        "message": "Search easily and quickly",
+        "description": "Search easily and quickly"
+    },
+
+    "str0": {
+        "message": "Global Settings",
+        "description": "Global Settings"
+    },
+
+    "str1": {
+        "message": "All settings will be applied after pressing the 'Confirm' button.",
+        "description": ""
+    },
+
+    "str2": {
+        "message": "Always open in a new tab (start page only)",
+        "description": ""
+    },
+
+    "str3": {
+        "message": "Enable interface dark mode",
+        "description": ""
+    },
+
+    "str4": {
+        "message": "Enable text selection floating menu",
+        "description": ""
+    },
+
+    "str5": {
+        "message": "Force-enable text selection (may not work on some sites)",
+        "description": ""
+    },
+
+    "str6": {
+        "message": "Dock Settings",
+        "description": ""
+    },
+
+    "str7": {
+        "message": "To delete a link, activate 'Link Delete Mode' and click it.",
+        "description": ""
+    },
+
+    "str8": {
+        "message": "Link Delete Mode",
+        "description": ""
+    },
+
+    "str9": {
+        "message": "Background Settings",
+        "description": ""
+    },
+
+    "str10": {
+        "message": "After activation, please enter the background image link (default background will be used when deactivated).",
+        "description": ""
+    },
+
+    "str11": {
+        "message": "Information",
+        "description": ""
+    },
+
+    "str12": {
+        "message": "Version",
+        "description": ""
+    },
+
+    "str13": {
+        "message": "Copyright",
+        "description": ""
+    },
+
+    "str14": {
+        "message": "Frameworks/Libraries/APIs Used",
+        "description": ""
+    },
+
+    "str15": {
+        "message": "Default Background Image Source",
+        "description": ""
+    },
+
+    "str16": {
+        "message": "Photo taken with my girlfriend at Gyeongpo Lake Plaza (taken personally) -2023.10.08-",
+        "description": ""
+    },
+
+    "str17": {
+        "message": "Confirm",
+        "description": ""
+    },
+
+    "str18": {
+        "message": "Search Query",
+        "description": ""
+    },
+
+    "str19": {
+        "message": "Add Link",
+        "description": ""
+    },
+
+    "str20": {
+        "message": "Please enter the link name.",
+        "description": ""
+    },
+
+    "str21": {
+        "message": "Please enter the URL.",
+        "description": ""
+    },
+
+    "str22": {
+        "message": "Settings",
+        "description": ""
+    },
+
+    "str23": {
+        "message": "Use Papago as the default translator (default is Google)",
+        "description": ""
+    },
+
+    "str24": {
+        "message": "Widget Settings",
+        "description": ""
+    },
+
+    "str25": {
+        "message": "Clock",
+        "description": ""
+    },
+
+    "str26": {
+        "message": "Translate",
+        "description": ""
+    },
+
+    "str27": {
+        "message": "Translation",
+        "description": ""
+    },
+
+    "str28": {
+        "message": "Default Search Engine",
+        "description": ""
+    },
+
+    "str29": {
+        "message": "Complete the settings in the new tab.",
+        "description": ""
+    },
+
+    "str30":{
+        "message": "All settings are applied after refreshing the page.",
+        "description": ""
+    }
+}

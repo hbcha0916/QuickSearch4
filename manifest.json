@@ -1,0 +1,37 @@
+{
+    "manifest_version": 3,
+    "name": "QuickSearch",
+    "version": "1.0",
+    "description": "__MSG_appDescription__",
+    "default_locale": "ko",
+    "icons": {
+      "48": "lib/icon/main_48_48.ico"
+    },
+    "background": {
+        "service_worker": "lib/js/event.js"
+    },
+    "action":{
+        "default_icon": {              
+            "16": "lib/icon/main_16_16.ico",   
+            "24": "lib/icon/main_24_24.ico", 
+            "32": "lib/icon/main_32_32.ico",
+            "64": "lib/icon/main_64_64.ico"
+        },
+        "default_title": "QuickSearch",
+        "default_popup": "popup/popup.html"
+    },
+    "chrome_url_overrides" : {
+        "newtab": "overridePage/quickSearch.html"
+    },
+    "content_scripts": [ {
+        "js": ["lib/js/service.js"],
+        "css": ["lib/css/service.css"],
+        "matches": ["http://*/*","https://*/*","file:///*"],
+        "run_at" : "document_end" 
+    }],
+    "permissions":[
+        "storage",
+        "tabs"
+    ]
+    
+}

@@ -1,0 +1,215 @@
+:root {
+    --background-color: #FFFFFF;
+    --blurColor: rgba(255, 255, 255, 0.404);
+    --deepBlurColor: rgba(255, 255, 255, 0.541);
+    --textColor: black;
+    --textColorLight: rgba(0, 0, 0, 0.548);
+}
+
+.wallpaper {
+    position: fixed; /* 화면에 고정 */
+    top: 0; /* 화면 상단부터 시작 */
+    left: 0; /* 화면 왼쪽부터 시작 */
+    width: 100vw; /* 브라우저 너비에 맞춤 */
+    height: 100vh; /* 브라우저 높이에 맞춤 */
+    /* background-image: url('../../defaultWallpaper.jpg');  */
+    background-size: cover; /* 화면을 채우도록 설정 */
+    background-position: center center; /* 중앙 정렬 */
+    background-repeat: no-repeat; /* 반복 방지 */
+    z-index: -1; /* 맨 뒤로 보냄 */
+}
+
+.dark {
+    --background-color: #000000;
+    --blurColor: rgba(0, 0, 0, 0.404);
+    --deepBlurColor: rgba(0, 0, 0, 0.541);
+    --textColor: white;
+    --textColorLight: rgba(255, 255, 255, 0.548);
+}
+
+body{ 
+    background-color: var(--background-color);
+    -ms-overflow-style: none; /* IE, Edge */
+}
+
+::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리 */
+}
+
+.dbug{
+    /* border: 1px solid red; */
+}
+
+.rowBig{
+    height: 8vh;
+}
+
+.rowMid{
+    height: 5vh;
+}
+
+.rowSm{
+    height: 3vh;
+}
+.rowVsm{
+    height: 1vh;
+}
+
+.footer{
+    position : fixed;
+    bottom : 0;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.footerLabels{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footerText{
+    font-size: xx-small;
+    color: var(--textColor);
+}
+
+a.footerText{
+    text-decoration-line: none;
+    color: var(--textColor);
+}
+
+a.footerText:hover{
+    color: var(--textColorLight);
+}
+
+.linkTable{
+    user-select : none;
+}
+
+.link{
+    user-select : none;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: saturate(100%) blur(10px);
+    background-color: var(--blurColor);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.dott{
+    border-top: 1px dotted;
+}
+
+.link-sm{
+    margin: 0px;
+    padding: 3px;
+}
+
+.link:hover{
+    background-color: var(--deepBlurColor);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.link:active{
+    box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.searchString{
+    background-color: var(--blurColor);
+    backdrop-filter: saturate(100%) blur(10px);
+    transition:.3s;
+
+}
+
+.searchString:focus{
+    background-color: var(--deepBlurColor);
+
+}
+
+.clockArea{
+    user-select : none;
+    margin: 3px;
+    padding: 10px;
+    border-radius: 15px;
+    backdrop-filter: saturate(100%) blur(10px);
+    background-color: var(--blurColor);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.widgetClockTime{
+    font-size: 5em;
+}
+
+.widgetClockDate{
+    font-size: 1.5em;
+    margin-top: -25px;
+}
+
+.timeZone{
+    display: inline-flex;
+}
+
+.widgetClockTimeSeconds{
+    font-size: 3em;
+    align-content: flex-end;
+    padding: 0 0 10px 10px;
+}
+
+.stickerOBJ{
+    margin: 0 3px 15px 3px;
+    height: 20vh;
+    border-radius: 15px;
+    backdrop-filter: saturate(100%) blur(10px);
+    background-color: var(--blurColor);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.stickerOBJ:hover{
+    background-color: var(--deepBlurColor);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.stickerTextArea{
+    height: 80%;
+}
+
+.stickerInput{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 0 10px 0 10px;
+    background-color: transparent; /* 배경색 제거 */
+    border: none; /* 테두리 제거 */
+    outline: none; /* 포커스(선택) 시 테두리 제거 */
+}
+
+.stickerAppendBTN{
+    justify-content: center;
+    user-select: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+}
+
+.popupBody{
+    width: 350px;
+    height: 300px;
+    padding: 0 10px 20px 10px;
+    background-color: rgb(37, 37, 37);
+    font-size: 0.8em;
+}
+
+.notReady{
+    position : fixed;
+    background-color: rgb(37, 37, 37);
+    top : 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}

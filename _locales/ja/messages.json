@@ -1,0 +1,161 @@
+{
+    "appDescription": {
+        "message": "検索を簡単に、そして迅速に",
+        "description": "検索を簡単に、そして迅速に"
+    },
+
+    "str0": {
+        "message": "全体設定",
+        "description": "全体設定"
+    },
+
+    "str1": {
+        "message": "すべての設定は「確認」ボタンを押した後に適用されます。",
+        "description": ""
+    },
+
+    "str2": {
+        "message": "常に新しいタブで開く（スタートページのみ）",
+        "description": ""
+    },
+
+    "str3": {
+        "message": "インターフェースのダークモードを使用する",
+        "description": ""
+    },
+
+    "str4": {
+        "message": "テキスト選択フローティングメニューを使用する",
+        "description": ""
+    },
+
+    "str5": {
+        "message": "強制的にテキスト選択を可能にする（一部のサイトでは動作しないことがあります）",
+        "description": ""
+    },
+
+    "str6": {
+        "message": "ドック設定",
+        "description": ""
+    },
+
+    "str7": {
+        "message": "リンクを削除するには「リンク削除モード」を有効にしてクリックしてください。",
+        "description": ""
+    },
+
+    "str8": {
+        "message": "リンク削除モード",
+        "description": ""
+    },
+
+    "str9": {
+        "message": "背景設定",
+        "description": ""
+    },
+
+    "str10": {
+        "message": "有効化後、背景画像のリンクを入力してください（無効化するとデフォルト背景が使用されます）。",
+        "description": ""
+    },
+
+    "str11": {
+        "message": "情報",
+        "description": ""
+    },
+
+    "str12": {
+        "message": "バージョン",
+        "description": ""
+    },
+
+    "str13": {
+        "message": "著作権",
+        "description": ""
+    },
+
+    "str14": {
+        "message": "使用されているフレームワーク/ライブラリ/API",
+        "description": ""
+    },
+
+    "str15": {
+        "message": "デフォルト背景画像の出典",
+        "description": ""
+    },
+
+    "str16": {
+        "message": "彼女と旅行先で撮った鏡浦湖広場の写真（自分で撮影）-2023.10.08-",
+        "description": ""
+    },
+
+    "str17": {
+        "message": "確認",
+        "description": ""
+    },
+
+    "str18": {
+        "message": "検索キーワード",
+        "description": ""
+    },
+
+    "str19": {
+        "message": "リンク追加",
+        "description": ""
+    },
+
+    "str20": {
+        "message": "リンク名を入力してください。",
+        "description": ""
+    },
+
+    "str21": {
+        "message": "URLを入力してください。",
+        "description": ""
+    },
+
+    "str22": {
+        "message": "設定",
+        "description": ""
+    },
+
+    "str23": {
+        "message": "デフォルト翻訳をPapagoに設定する（デフォルトはGoogle）",
+        "description": ""
+    },
+
+    "str24": {
+        "message": "ウィジェット設定",
+        "description": ""
+    },
+
+    "str25": {
+        "message": "時計",
+        "description": ""
+    },
+
+    "str26": {
+        "message": "翻訳する",
+        "description": ""
+    },
+
+    "str27": {
+        "message": "翻訳",
+        "description": ""
+    },
+
+    "str28": {
+        "message": "デフォルト検索エンジン",
+        "description": ""
+    },
+
+    "str29": {
+        "message": "新しいタブで設定を完了してください。",
+        "description": ""
+    },
+
+    "str30":{
+        "message": "すべての設定はページをリフレッシュした後に適用されます。",
+        "description": ""
+    }
+}

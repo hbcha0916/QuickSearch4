@@ -1,0 +1,161 @@
+{
+    "appDescription":{
+        "message": "검색을 쉽게 그리고 빠르게",
+        "description": "검색을 쉽게 그리고 빠르게"
+    },
+
+    "str0":{
+        "message": "전역설정",
+        "description": "전역설정"
+    },
+
+    "str1":{
+        "message": "모든 설정은 '확인'버튼을 누른후 적용됩니다.",
+        "description": ""
+    },
+
+    "str2":{
+        "message": "항상 새 탭으로 열기(시작페이지만)",
+        "description": ""
+    },
+
+    "str3":{
+        "message": "인터페이스 다크모드 사용",
+        "description": ""
+    },
+
+    "str4":{
+        "message": "텍스트선택 플로팅메뉴 사용",
+        "description": ""
+    },
+
+    "str5":{
+        "message": "강제로 텍스트선택을 가능하게 하기(일부 사이트는 동작하지 않음)",
+        "description": ""
+    },
+
+    "str6":{
+        "message": "독바설정",
+        "description": ""
+    },
+
+    "str7":{
+        "message": "링크를 삭제하려면 '링크 삭제모드' 를 활성화후 눌러주세요.",
+        "description": ""
+    },
+
+    "str8":{
+        "message": "링크 삭제모드",
+        "description": ""
+    },
+
+    "str9":{
+        "message": "배경설정",
+        "description": ""
+    },
+
+    "str10":{
+        "message": "활성화후, 배경화면의 링크를 입력해 주세요.(비활성화시 기본배경사용)",
+        "description": ""
+    },
+
+    "str11":{
+        "message": "정보",
+        "description": ""
+    },
+
+    "str12":{
+        "message": "버전",
+        "description": ""
+    },
+
+    "str13":{
+        "message": "저작권",
+        "description": ""
+    },
+
+    "str14":{
+        "message": "사용 프레임워크/라이브러리/API",
+        "description": ""
+    },
+
+    "str15":{
+        "message": "기본 배경사진 출처",
+        "description": ""
+    },
+
+    "str16":{
+        "message": "여자친구랑 여행가서 찍은 경포호수광장(직접찍음) -2023.10.08-",
+        "description": ""
+    },
+
+    "str17":{
+        "message": "확인",
+        "description": ""
+    },
+
+    "str18":{
+        "message": "검색어",
+        "description": ""
+    },
+
+    "str19":{
+        "message": "링크 추가",
+        "description": ""
+    },
+
+    "str20":{
+        "message": "링크이름을 입력해 주세요.",
+        "description": ""
+    },
+
+    "str21":{
+        "message": "URL을 입력해 주세요.",
+        "description": ""
+    },
+
+    "str22":{
+        "message": "설정",
+        "description": ""
+    },
+    
+    "str23":{
+        "message": "기본 번역을 Papago로 사용하기(기본값 Google)",
+        "description": ""
+    },
+    
+    "str24":{
+        "message": "위젯설정",
+        "description": ""
+    },
+    
+    "str25":{
+        "message": "시계",
+        "description": ""
+    },
+    
+    "str26":{
+        "message": "번역하기",
+        "description": ""
+    },
+    
+    "str27":{
+        "message": "번역",
+        "description": ""
+    },
+    
+    "str28":{
+        "message": "기본검색엔진",
+        "description": ""
+    },
+    
+    "str29":{
+        "message": "새 탭에서 설정을 완료하세요.",
+        "description": ""
+    },
+
+    "str30":{
+        "message": "모든 설정은 '페이지 새로고침'후 적용됩니다.",
+        "description": ""
+    }
+}
